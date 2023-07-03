@@ -1,0 +1,49 @@
+<div>
+    <br>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              HTML Structure
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>HTML Structure</strong> <code> The HTML markup defines the structure of the to-do list, including the task items and their corresponding subtasks.
+Each task item is represented by an accordion element, which can be expanded or collapsed to show or hide the subtasks.
+The subtasks are typically displayed within a panel element under each task item.</code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              AngularJS Controller
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>AngularJS Controller</strong> <code> AngularJS controllers are responsible for managing the data and the behavior of the application.
+In the case of a to-do list, an AngularJS controller is used to store the tasks and their corresponding subtasks as an array of objects.
+The controller provides functions to toggle the visibility of the subtask panels when a task item is clicked.</code>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Data Binding
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Data Binding </strong> <code>AngularJS utilizes two-way data binding, which means that changes in the data model are automatically reflected in the view and vice versa.
+The to-do list application binds the task data from the controller to the HTML elements using AngularJS directives such as ng-repeat and ng-show.
+ng-repeat is used to iterate over the tasks array and display each task item dynamically.
+ng-show is used to conditionally show or hide the subtask panel based on the task's expanded state.</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br>
+</div>
